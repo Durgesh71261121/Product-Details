@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <!-- Main Image -->
+            <div class="main-image">
+                <img id="main-product-image" src="https://images.pexels.com/photos/1576774/pexels-photo-1576774.jpeg" alt="Main Product Image">
+            </div>
+            <!-- Thumbnails -->
+            <div class="thumbnails">
+                <div class="thumbnail active">
+                    <img src="Images/front and back.jpg" alt="Blue Polo Shirt Front">
+                </div>
+                <div class="thumbnail">
+                    <img src="Images/front.jpg" alt="Blue Polo Shirt Side">
+                </div>
+                <div class="thumbnail">
+                    <img src="Images/back.jpg" alt="Blue Polo Shirt Back">
+                </div>
+            </div>
+        </div>
+        <div class="product-details">
+            <h1>Custom Fit Polo Bear Oxford Shirt</h1>
+            <h2>Polo Ralph</h2>
+            <p>Blue polo with a classic cut. Made of smooth and soft cotton.</p>
+            <div class="price">
+                <span class="current-price">$99.00</span>
+                <span class="discount">-25%</span>
+                <span class="old-price">$132.00</span>
+            </div>
+            <div class="size-selection">
+                <label for="size">Choose Size</label>
+                <div class="sizes">
+                    <button class="size">S</button>
+                    <button class="size active">M</button>
+                    <button class="size">L</button>
+                    <button class="size">XL</button>
+                    <button class="size">XXL</button>
+                </div>
+            </div>
+            <button class="add-to-bag">ADD TO BAG</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
